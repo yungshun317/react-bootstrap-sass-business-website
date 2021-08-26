@@ -6,13 +6,13 @@ module.exports = {
         index: path.resolve(__dirname, "src", "index.js")
     },
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "build"),
         filename: "bundle.js",
         sourceMapFilename: "bundle.map"
     },
     devtool: "source-map",
     devServer: {
-        contentBase: path.join(__dirname, "dist"),
+        contentBase: path.join(__dirname, "build"),
         compress: true,
         port: 9000,
         open: "google-chrome"
