@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+// [1] Configuration & Helpers
+@import
+  "vendors/normalize";
+
+// [2] Vendors
+
+// [3] Base Stuff
+@import
+  "base/base";
+@import "base/typography";
+
+// [4] Layout-related Section
+@import "layout/grid";
+
+// [5] Components
+
+// [6] Page-specific Styles
+
+// [7] Themes
+@import "themes/theme";
+
+@import "~bootstrap/scss/bootstrap";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
