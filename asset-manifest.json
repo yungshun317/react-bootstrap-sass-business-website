@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-bootstrap-sass-business-website/static/css/main.a617e044.chunk.css",
+    "main.js": "/react-bootstrap-sass-business-website/static/js/main.4f825b7b.chunk.js",
+    "main.js.map": "/react-bootstrap-sass-business-website/static/js/main.4f825b7b.chunk.js.map",
+    "runtime-main.js": "/react-bootstrap-sass-business-website/static/js/runtime-main.3786a4ca.js",
+    "runtime-main.js.map": "/react-bootstrap-sass-business-website/static/js/runtime-main.3786a4ca.js.map",
+    "static/js/2.590b71c5.chunk.js": "/react-bootstrap-sass-business-website/static/js/2.590b71c5.chunk.js",
+    "static/js/2.590b71c5.chunk.js.map": "/react-bootstrap-sass-business-website/static/js/2.590b71c5.chunk.js.map",
+    "static/js/3.0c6a54c8.chunk.js": "/react-bootstrap-sass-business-website/static/js/3.0c6a54c8.chunk.js",
+    "static/js/3.0c6a54c8.chunk.js.map": "/react-bootstrap-sass-business-website/static/js/3.0c6a54c8.chunk.js.map",
+    "index.html": "/react-bootstrap-sass-business-website/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/react-bootstrap-sass-business-website/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.590b71c5.chunk.js.LICENSE.txt": "/react-bootstrap-sass-business-website/static/js/2.590b71c5.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/react-bootstrap-sass-business-website/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3786a4ca.js",
+    "static/js/2.590b71c5.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.4f825b7b.chunk.js"
+  ]
+}
