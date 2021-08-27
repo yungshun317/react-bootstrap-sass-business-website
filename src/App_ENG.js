@@ -144,7 +144,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>ABOUT</h6>
-                            <h4 style={fontStyle}>酬勤資訊提供 <span style={{color:"#00C6D6"}}>客製化網站平台 應用系統開發</span><span style={{color:"#00C6D6"}}>大數據 人工智慧</span>解決方案</h4>
+                            <h4 style={fontStyle}>Your Best Partner for Building Various Software Solutions from <span style={{color:"#00C6D6"}}>Web Applications</span> to <span style={{color:"#00C6D6"}}>Artificial Intelligence</span></h4>
                         </div>
                     </Col>
                 </Row>
@@ -178,7 +178,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>PROFESSIONAL</h6>
-                            <h4 style={fontStyle}>我們堅持<span style={{color:"#00C6D6"}}>最高品質</span>的軟體設計與開發流程</h4>
+                            <h4 style={fontStyle}>We Offer <span style={{color:"#00C6D6"}}>Highest Quality</span> Web Design & Development Service with Most Solid Workflow</h4>
                         </div>
                     </Col>
                 </Row>
@@ -210,7 +210,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>PROGRESSIVE</h6>
-                            <h4 style={fontStyle}>你知道大部分軟體代工公司還在使用落後十年以上的網站模板和開發框架嗎</h4>
+                            <h4 style={fontStyle}>Do You Know Most Software Outsourcing Companies Build Your Websites with Outdated High-Risk Templates & Frameworks from 10 Years Ago?</h4>
                         </div>
                     </Col>
                 </Row>
@@ -228,17 +228,19 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>DATA-DRIVEN</h6>
-                            <h4 style={fontStyle}>數據問題的專家幫你解決<span style={{color:"#00C6D6"}}>大數據</span>3V(資料量 傳輸速度 資料類型)的各種疑難雜症</h4>
+                            <h4 style={fontStyle}>Data Experts Solve Your <span style={{color:"#00C6D6"}}>Big Data</span> Problem about 3Vs (Volume, Velocity, and Variety)</h4>
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col sm={12} md={6} className="d-flex align-items-center">
                         <div>
-                            <h5>擁有可信靠性 可擴衝性 可維護性的應用系統</h5>
+                            <h5>Reliable & Scalable & Maintainable Systems</h5>
                             <p>
-                                作為我們的客戶 你可以充分享受到來自世界上第一流軟體公司的技術 包括 DevOps經驗 彈性運算 自我修復 韌性 故障容許 分散式追蹤
-                                中心化監控&日誌 負載均衡 配置管理 持續整合 交付 部屬 等 還有更多
+                                As Our Clients, You can Benefit from Best Parts of Modern Web Development Technologies including
+                                DevOps Experience, Auto Scaling & Self Healing, Resilience & Fault Tolerance, Distributed Tracing,
+                                Centralized Metrics & Logging, Load Balancing, Configuration Management, Continuous Integration &
+                                Delivery & Deployment... and More from Top Software Companies.
                             </p>
                         </div>
                     </Col>
@@ -255,7 +257,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>INNOVATIVE</h6>
-                            <h4 style={fontStyle}>幸運屬於勇敢者(Fortune Favors the Brave)</h4>
+                            <h4 style={fontStyle}>Fortune Favors the Brave</h4>
                         </div>
                     </Col>
                 </Row>
@@ -276,11 +278,12 @@ export default function App() {
                     </Col>
                     <Col sm={12} md={6} className="d-flex align-items-center">
                         <div>
-                            <h5>擁抱創新</h5>
+                            <h5>Embrace Innovations</h5>
                             <p>
-                                創新是智慧在找樂子(Creativity is intelligence having fun) 我們是快速適應者 極客 更是現實的理想主義者
-                                我們著迷於十種創新:獲利模式 網路 結構 流程 產品性能 產品系統 服務 通路 品牌 客戶投入
-                                我們追尋創新與需求間的平衡
+                                Creativity is Intelligence having fun. We are Early Adopters, Practical Idealists, and Geeks.
+                                We are Fascinated with all 10 Types of Innovations: Profit Model, Network, Structure, Process,
+                                Product Performance, Product System, Service, Channel, Brand, and Customer Engagement.
+                                We Balance Innovation and Stability.
                             </p>
                         </div>
                     </Col>
@@ -293,7 +296,8 @@ export default function App() {
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>CREATIVE</h6>
                             <h4 style={fontStyle}>
-                                為什麼你的網站看起來沒設計感?我們是第一間將<span style={{color:"#00C6D6"}}>品牌設計</span>原理融入網頁設計的公司
+                                Why does Your Website look Bland or Mediocre?
+                                We are the First Company Consider <span style={{color:"#00C6D6"}}>Branding Design Principles</span> in Web Design
                             </h4>
                         </div>
                     </Col>
@@ -312,7 +316,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>PROACTIVE</h6>
-                            <h4 style={fontStyle}><span style={{color:"#00C6D6"}}>使用者經驗(UX)</span>不是把常識拿出來講講而已 而是有一系列專業的流程和產出</h4>
+                            <h4 style={fontStyle}><span style={{color:"#00C6D6"}}>UX</span> is not just Common Sense; It has a Series of Professional Processes with Concrete Outputs</h4>
                         </div>
                     </Col>
                 </Row>
@@ -330,7 +334,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>TEAM</h6>
-                            <h4 style={fontStyle}>來自<span style={{color:"#00C6D6"}}>矽谷灣區</span> <span style={{color:"#00C6D6"}}>國內外大型企業與研究機構的專業團隊</span></h4>
+                            <h4 style={fontStyle}>Professional Team Come from <span style={{color:"#00C6D6"}}>Silicon Valley, Bay Area</span>, International Enterprises & Research Organizations</h4>
                         </div>
                     </Col>
                 </Row>
@@ -469,7 +473,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>SERVICES</h6>
-                            <h4 style={fontStyle}><span style={{color:"#00C6D6"}}>最優惠價格保證:</span>竭盡所能為您提供業界最低價格</h4>
+                            <h4 style={fontStyle}><span style={{color:"#00C6D6"}}>Best Price Match Guarantee:</span> We will Price Match if You Find Your Project Cheaper Somewhere Else</h4>
                         </div>
                     </Col>
                 </Row>
@@ -479,7 +483,7 @@ export default function App() {
                             <h4 style={fontStyle}>BASIC</h4>
                             <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Business Website</h5>
                             <p style={{marginBlockStart:"16px",marginBlockEnd:"16px",marginLeft:"12px",marginRight:"12px"}}>
-                                一個好的門戶網站提升你的營業額 我們提供客製化或模板網站 最高品質低廉價格
+                                A Good Website Boosts Your Business. We Provide Customized or Template-Based Web Design with High Quality but Low Price.
                             </p>
                             <hr style={hrStyle} />
                             <h6 style={fontStyle}>Branding Design</h6>
@@ -502,8 +506,8 @@ export default function App() {
                             <h4 style={fontStyle}>STANDARD</h4>
                             <h5 style={{color:"#FF0099",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Modern Web Application</h5>
                             <p style={{marginBlockStart:"16px",marginBlockEnd:"16px",marginLeft:"12px",marginRight:"12px"}}>
-                                從電子商務 網路服務 內容管理系統 手機應用 到 線上預約系統 數位轉型幫助你節省開支 突破地域限制 改善客戶服務 行銷手機用戶
-                                最佳化運營效率
+                                From E-Commerce, Web Services, Content Management System, Mobile Applications, to Online Reservation System, Digitalize Your Business Helps You
+                                Cut on Costs, Erase Geolocation Limits, Improve Customer Service, Reach out to Mobile Users, Make Business Operations more Efficient.
                             </p>
                             <hr style={hrStyle} />
                             <h6 style={fontStyle}><span style={{color:"#FF0099"}}>ALL in BASIC Class</span></h6>
@@ -524,7 +528,8 @@ export default function App() {
                             <h4 style={fontStyle}>ENTERPRISE</h4>
                             <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Data-Intensive System</h5>
                             <p style={{marginBlockStart:"16px",marginBlockEnd:"16px",marginLeft:"12px",marginRight:"12px"}}>
-                                大數據 人工智慧團隊以尖端技術提升你的業務增長 並且滿足你法遵 稽核 資安的需求
+                                Big Data & Artificial Intelligence Team Leverage Your Business Growth with Progressive Technologies. Meet Your Compliance, Audit & Cyber Security
+                                Requirements.
                             </p>
                             <hr style={hrStyle} />
                             <h6 style={fontStyle}><span style={{color:"#00C6D6"}}>ALL in STANDARD Class</span></h6>
@@ -550,7 +555,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>CONTACT</h6>
-                            <h4 style={fontStyle}>有任何問題請隨時和我們聯繫</h4>
+                            <h4 style={fontStyle}>Please Feel Free to Contact Us if You Have Any Questions</h4>
                         </div>
                     </Col>
                 </Row>
