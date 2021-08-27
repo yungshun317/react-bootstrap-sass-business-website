@@ -113,7 +113,7 @@ export default function App() {
                         <Nav.Link href="#contact" style={{color:"#00C6D6"}}><h5>聯繫我們</h5></Nav.Link>
                         <Nav.Link href="#" style={{color:"#00C6D6"}}>
                             <img src={phoneNavIcon} style={{display:"inline-block",height:"16px",paddingRight:"8px",marginTop:"-6px"}} />
-                            <h5 style={{display:"inline-block"}}>0900 615 379</h5>
+                            <p style={{display:"inline-block"}}>0900 615 379</p>
                         </Nav.Link>
                         {/*
                         <NavDropdown title="Dropdown" id="basic-navbar-dropdown">
@@ -158,15 +158,15 @@ export default function App() {
                 </Row>
                 <Row className="mobile-text">
                     <Col className="mobile-text" xs={12} style={{marginTop:"20px",marginBottom:"20px"}}>
-                        <h5 className="mobile-text" style={fontStyle}>網站平台、應用系統開發(Web Application)</h5>
+                        <h5 className="mobile-text" style={fontStyle}><span style={{color:"#00C6D6"}}>網站平台、應用系統開發(Web Application)</span></h5>
                         <p className="mobile-text" style={fontStyle}>從企業網站、電子商務，到手機Apps，我們提供最具可依靠性、可擴充性、可維護性的系統方案。</p>
-                        <h5 className="mobile-text" style={fontStyle}>雲端運算(Cloud Computing)</h5>
+                        <h5 className="mobile-text" style={fontStyle}><span style={{color:"#00C6D6"}}>雲端運算(Cloud Computing)</span></h5>
                         <p className="mobile-text" style={fontStyle}>利用雲端微服務架構，重新定義成本最佳化。</p>
-                        <h5 className="mobile-text" style={fontStyle}>人工智慧Artifici(al Intelligence)</h5>
+                        <h5 className="mobile-text" style={fontStyle}><span style={{color:"#00C6D6"}}>人工智慧Artifici(al Intelligence)</span></h5>
                         <p className="mobile-text" style={fontStyle}>科技部AI競賽獲獎團隊，利用當下最佳(State-of-the-Art)的機器學習模型，幫助你的公司業務增長、改善財務狀況。</p>
-                        <h5 className="mobile-text" style={fontStyle}>資訊安全(Cyber Security)</h5>
+                        <h5 className="mobile-text" style={fontStyle}><span style={{color:"#00C6D6"}}>資訊安全(Cyber Security)</span></h5>
                         <p className="mobile-text" style={fontStyle}>來自跨國金融機構的資訊安全專家，幫你嚴格把控你的系統安全、隔絕所有線上威脅、保護你珍貴的數據不被駭客偷取。</p>
-                        <h5 className="mobile-text" style={fontStyle}>大數據(Big Data)</h5>
+                        <h5 className="mobile-text" style={fontStyle}><span style={{color:"#00C6D6"}}>大數據(Big Data)</span></h5>
                         <p className="mobile-text" style={fontStyle}>採用高容量批次處理(High-Volume Batch Processing)或實時流處理(Real-Time Stream Processing)技術，設計數據密集型應用系統。</p>
                     </Col>
                 </Row>
@@ -473,7 +473,7 @@ export default function App() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col sm={12} md={4} className="d-flex">
+                    <Col sm={12} md={4} className="d-flex" style={{marginBottom:"20px"}}>
                         <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h4 style={fontStyle}>基礎級</h4>
                             <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>商業網站(Business Website)</h5>
@@ -490,13 +490,13 @@ export default function App() {
                             <Row>
                                 <Col md={{span:8, offset:2}}>
                                     <div>
-                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>開始</h5></a>
+                                        <a href="#contact" className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>開始</h5></a>
                                     </div>
                                 </Col>
                             </Row>
                         </div>
                     </Col>
-                    <Col sm={12} md={4} className="d-flex">
+                    <Col sm={12} md={4} className="d-flex" style={{marginBottom:"20px"}}>
                         <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h4 style={fontStyle}>標準級</h4>
                             <h5 style={{color:"#FF0099",marginBlockStart:"16px",marginBlockEnd:"16px"}}>現代化網站平台、應用系統(Modern Web Application)</h5>
@@ -512,13 +512,13 @@ export default function App() {
                             <Row>
                                 <Col md={{span:8, offset:2}}>
                                     <div>
-                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#FF0099",width:"80%"}}><h5 style={{marginBottom:"0"}}>開始</h5></a>
+                                        <a href="#contact" className="btn" style={{marginBottom:"16px",backgroundColor:"#FF0099",width:"80%"}}><h5 style={{marginBottom:"0"}}>開始</h5></a>
                                     </div>
                                 </Col>
                             </Row>
                         </div>
                     </Col>
-                    <Col sm={12} md={4} className="d-flex">
+                    <Col sm={12} md={4} className="d-flex" style={{marginBottom:"20px"}}>
                         <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h4 style={fontStyle}>企業級</h4>
                             <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>數據密集型應用系統(Data-Intensive System)</h5>
@@ -535,7 +535,7 @@ export default function App() {
                             <Row>
                                 <Col md={{span:8, offset:2}}>
                                     <div>
-                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>開始</h5></a>
+                                        <a href="#contact" className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>開始</h5></a>
                                     </div>
                                 </Col>
                             </Row>
