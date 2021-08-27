@@ -107,10 +107,10 @@ export default function App() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link href="#home" style={{color:"#00C6D6"}}><h5>HOME</h5></Nav.Link>
-                        <Nav.Link href="#services" style={{color:"#00C6D6"}}><h5>SERVICES</h5></Nav.Link>
-                        <Nav.Link href="#team" style={{color:"#00C6D6"}}><h5>TEAM</h5></Nav.Link>
-                        <Nav.Link href="#contact" style={{color:"#00C6D6"}}><h5>CONTACT</h5></Nav.Link>
+                        <Nav.Link href="#home" style={{color:"#00C6D6"}}><h5>首頁</h5></Nav.Link>
+                        <Nav.Link href="#services" style={{color:"#00C6D6"}}><h5>服務內容</h5></Nav.Link>
+                        <Nav.Link href="#team" style={{color:"#00C6D6"}}><h5>團隊</h5></Nav.Link>
+                        <Nav.Link href="#contact" style={{color:"#00C6D6"}}><h5>聯繫我們</h5></Nav.Link>
                         <Nav.Link href="#" style={{color:"#00C6D6"}}>
                             <img src={phoneNavIcon} style={{display:"inline-block",height:"16px",paddingRight:"8px",marginTop:"-6px"}} />
                             <h5 style={{display:"inline-block"}}>0900 615 379</h5>
@@ -143,8 +143,8 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>ABOUT</h6>
-                            <h4 style={fontStyle}>酬勤資訊提供 <span style={{color:"#00C6D6"}}>客製化網站平台 應用系統開發</span><span style={{color:"#00C6D6"}}>大數據 人工智慧</span>解決方案</h4>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>關於(About)</h6>
+                            <h4 style={fontStyle}>酬勤資訊提供<span style={{color:"#00C6D6"}}>客製化網站平台、應用系統開發</span><span style={{color:"#00C6D6"}}>，大數據、人工智慧</span>解決方案</h4>
                         </div>
                     </Col>
                 </Row>
@@ -158,16 +158,16 @@ export default function App() {
                 </Row>
                 <Row className="mobile-text">
                     <Col className="mobile-text" xs={12} style={{marginTop:"20px",marginBottom:"20px"}}>
-                        <h5 className="mobile-text" style={fontStyle}>Web Application</h5>
-                        <p className="mobile-text" style={fontStyle}>From Enterprise Website, E-Commerce, to Mobile Application, We Deliver the Most Reliable, Scalable, and Maintainable Systems.</p>
-                        <h5 className="mobile-text" style={fontStyle}>Cloud Computing</h5>
-                        <p className="mobile-text" style={fontStyle}>Own Web Applications with Microservice Architecture which Redefines Cost Optimization on Cloud.</p>
-                        <h5 className="mobile-text" style={fontStyle}>Artificial Intelligence</h5>
-                        <p className="mobile-text" style={fontStyle}>Award-Winning AI Team Helps You Boost Sales, Improve Finances with State-of-the-Art Machine Learning Models.</p>
-                        <h5 className="mobile-text" style={fontStyle}>Cyber Security</h5>
-                        <p className="mobile-text" style={fontStyle}>Masters of Cyber Security from Financial Industry Safeguard Your Applications against all Online Threats and Keep Your Precious Data out of the Hands of the Bad Guys.</p>
-                        <h5 className="mobile-text" style={fontStyle}>Big Data</h5>
-                        <p className="mobile-text" style={fontStyle}>Design Data-Intensive Applications with High-Volume Batch Processing, Real-Time Stream Processing Techniques.</p>
+                        <h5 className="mobile-text" style={fontStyle}>網站平台、應用系統開發(Web Application)</h5>
+                        <p className="mobile-text" style={fontStyle}>從企業網站、電子商務，到手機Apps，我們提供最具可依靠性、可擴充性、可維護性的系統方案。</p>
+                        <h5 className="mobile-text" style={fontStyle}>雲端運算(Cloud Computing)</h5>
+                        <p className="mobile-text" style={fontStyle}>利用雲端微服務架構，重新定義成本最佳化。</p>
+                        <h5 className="mobile-text" style={fontStyle}>人工智慧Artifici(al Intelligence)</h5>
+                        <p className="mobile-text" style={fontStyle}>科技部AI競賽獲獎團隊，利用當下最佳(State-of-the-Art)的機器學習模型，幫助你的公司業務增長、改善財務狀況。</p>
+                        <h5 className="mobile-text" style={fontStyle}>資訊安全(Cyber Security)</h5>
+                        <p className="mobile-text" style={fontStyle}>來自跨國金融機構的資訊安全專家，幫你嚴格把控你的系統安全、隔絕所有線上威脅、保護你珍貴的數據不被駭客偷取。</p>
+                        <h5 className="mobile-text" style={fontStyle}>大數據(Big Data)</h5>
+                        <p className="mobile-text" style={fontStyle}>採用高容量批次處理(High-Volume Batch Processing)或實時流處理(Real-Time Stream Processing)技術，設計數據密集型應用系統。</p>
                     </Col>
                 </Row>
             </Container>
@@ -177,7 +177,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>PROFESSIONAL</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>專業(Professional)</h6>
                             <h4 style={fontStyle}>我們堅持<span style={{color:"#00C6D6"}}>最高品質</span>的軟體設計與開發流程</h4>
                         </div>
                     </Col>
@@ -192,14 +192,13 @@ export default function App() {
                 </Row>
                 <Row className="mobile-text">
                     <Col className="mobile-text" xs={12} style={{marginTop:"20px",marginBottom:"20px"}}>
-                        <h5 className="mobile-text" style={fontStyle} className="mobile-text" style={fontStyle}>4 Steps to Success:</h5>
-                        <h6 className="mobile-text" style={fontStyle}>PLANNING: <span style={{color:"#00C6D6"}}>BRANDING</span></h6>
-                        <h6 className="mobile-text" style={fontStyle}>MILESTONES: <span style={{color:"#00C6D6"}}>UI/UX</span></h6>
-                        <h6 className="mobile-text" style={fontStyle}>EARLY WINS: <span style={{color:"#00C6D6"}}>DEVELOPMENT</span></h6>
-                        <h6 className="mobile-text" style={fontStyle}>EVOLVE: <span style={{color:"#00C6D6"}}>DELIVERY</span></h6>
+                        <h5 className="mobile-text" style={fontStyle} className="mobile-text" style={fontStyle}>專案成功四步驟</h5>
+                        <h6 className="mobile-text" style={fontStyle}>計畫： <span style={{color:"#00C6D6"}}>品牌設計</span></h6>
+                        <h6 className="mobile-text" style={fontStyle}>里程碑： <span style={{color:"#00C6D6"}}>UI/UX設計</span></h6>
+                        <h6 className="mobile-text" style={fontStyle}>提前勝利： <span style={{color:"#00C6D6"}}>專業開發</span></h6>
+                        <h6 className="mobile-text" style={fontStyle}>演化： <span style={{color:"#00C6D6"}}>上線交付</span></h6>
                         <p className="mobile-text" style={fontStyle}>
-                            Give You Full Experience on the Most Solid Modern Web Development Workflow in Software Engineering Industry. Inject the Secret Formula of Branding & Digital Marketing
-                            into Your Web Applications.
+                            作為我們的客戶，你將享受到時下業界最精實的現代Web開發工作流程，並且獲得提煉自品牌設計(Branding Design)和數位行銷(Digital Marketing)的業績提升秘方。
                         </p>
                     </Col>
                 </Row>
@@ -209,8 +208,8 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>PROGRESSIVE</h6>
-                            <h4 style={fontStyle}>你知道大部分軟體代工公司還在使用落後十年以上的網站模板和開發框架嗎</h4>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>進步(Progressive)</h6>
+                            <h4 style={fontStyle}>你知道大部分軟體代工公司，還在使用落後十年以上的網站模板和開發框架嗎？</h4>
                         </div>
                     </Col>
                 </Row>
@@ -227,18 +226,18 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>DATA-DRIVEN</h6>
-                            <h4 style={fontStyle}>數據問題的專家幫你解決<span style={{color:"#00C6D6"}}>大數據</span>3V(資料量 傳輸速度 資料類型)的各種疑難雜症</h4>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>數據驅動(Data-Driven)</h6>
+                            <h4 style={fontStyle}>數據問題的專家幫你解決<span style={{color:"#00C6D6"}}>大數據</span>3V(資料量、傳輸速度、資料類型)的各種疑難雜症</h4>
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col sm={12} md={6} className="d-flex align-items-center">
                         <div>
-                            <h5>擁有可信靠性 可擴衝性 可維護性的應用系統</h5>
+                            <h5>擁有可信頼性(Reliability)、可擴充性(Scalability)、可維護性(Maintainability)的應用系統</h5>
                             <p>
-                                作為我們的客戶 你可以充分享受到來自世界上第一流軟體公司的技術 包括 DevOps經驗 彈性運算 自我修復 韌性 故障容許 分散式追蹤
-                                中心化監控&日誌 負載均衡 配置管理 持續整合 交付 部屬 等 還有更多
+                                作為我們的客戶，你可以充分享受到來自世界上第一流軟體公司的技術，包括：DevOps經驗、彈性運算(Auto Scaling)、自我修復(Self Healing)、韌性(Resilience)、故障容許(Fault Tolerance)、分散式追蹤(Distributed Tracing)、
+                                中心化監控、日誌(Centralized Metrics & Logging)、負載均衡(Load Balancing)、配置管理(Configuration Management)、持續整合、交付、部屬(Continuous Integration & Delivery & Deployment)...等，還有更多！
                             </p>
                         </div>
                     </Col>
@@ -254,7 +253,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>INNOVATIVE</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>創新(Innovation)</h6>
                             <h4 style={fontStyle}>幸運屬於勇敢者(Fortune Favors the Brave)</h4>
                         </div>
                     </Col>
@@ -278,9 +277,9 @@ export default function App() {
                         <div>
                             <h5>擁抱創新</h5>
                             <p>
-                                創新是智慧在找樂子(Creativity is intelligence having fun) 我們是快速適應者 極客 更是現實的理想主義者
-                                我們著迷於十種創新:獲利模式 網路 結構 流程 產品性能 產品系統 服務 通路 品牌 客戶投入
-                                我們追尋創新與需求間的平衡
+                                創新是智慧在找樂子(Creativity is intelligence having fun)。我們是快速適應者、極客(Geeks)，更是現實的理想主義者。
+                                我們著迷於十種創新：獲利模式、網路、結構、流程、產品性能、產品系統、服務、通路、品牌、客戶投入。
+                                我們追尋創新與需求間的平衡。
                             </p>
                         </div>
                     </Col>
@@ -291,9 +290,9 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>CREATIVE</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>創意(Creative)</h6>
                             <h4 style={fontStyle}>
-                                為什麼你的網站看起來沒設計感?我們是第一間將<span style={{color:"#00C6D6"}}>品牌設計</span>原理融入網頁設計的公司
+                                為什麼你的網站看起來沒設計感？我們是第一間將<span style={{color:"#00C6D6"}}>品牌設計</span>原理融入網頁設計的公司
                             </h4>
                         </div>
                     </Col>
@@ -311,8 +310,8 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>PROACTIVE</h6>
-                            <h4 style={fontStyle}><span style={{color:"#00C6D6"}}>使用者經驗(UX)</span>不是把常識拿出來講講而已 而是有一系列專業的流程和產出</h4>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>主動(Proactive)</h6>
+                            <h4 style={fontStyle}><span style={{color:"#00C6D6"}}>使用者經驗(UX)</span>不是把常識拿出來講講而已，而是有一系列專業的流程和產出</h4>
                         </div>
                     </Col>
                 </Row>
@@ -329,8 +328,8 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>TEAM</h6>
-                            <h4 style={fontStyle}>來自<span style={{color:"#00C6D6"}}>矽谷灣區</span> <span style={{color:"#00C6D6"}}>國內外大型企業與研究機構的專業團隊</span></h4>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>團隊(Team)</h6>
+                            <h4 style={fontStyle}>來自<span style={{color:"#00C6D6"}}>矽谷灣區</span>、<span style={{color:"#00C6D6"}}>國內外大型企業與研究機構的專業團隊</span></h4>
                         </div>
                     </Col>
                 </Row>
@@ -349,28 +348,28 @@ export default function App() {
                         <div className="text-center">
                             <img src={workerIcon} style={logoStyle} />
                             <h4 style={fontStyle}>11</h4>
-                            <h6 style={fontStyle}>PARTNERS</h6>
+                            <h6 style={fontStyle}>夥伴</h6>
                         </div>
                     </Col>
                     <Col xs={6} md={2}>
                         <div className="text-center">
                             <img src={projectIcon} style={logoStyle} />
                             <h4 style={fontStyle}>342</h4>
-                            <h6 style={fontStyle}>PROJECTS</h6>
+                            <h6 style={fontStyle}>專案</h6>
                         </div>
                     </Col>
                     <Col xs={6} md={2}>
                         <div className="text-center">
                             <img src={awardIcon} style={logoStyle} />
                             <h4 style={fontStyle}>46</h4>
-                            <h6 style={fontStyle}>AWARDS</h6>
+                            <h6 style={fontStyle}>獎項</h6>
                         </div>
                     </Col>
                     <Col xs={6} md={2}>
                         <div className="text-center">
                             <img src={supportHourIcon} style={logoStyle} />
                             <h4 style={fontStyle}>24</h4>
-                            <h6 style={fontStyle}>SUPPORT HOURS</h6>
+                            <h6 style={fontStyle}>客服</h6>
                         </div>
                     </Col>
                 </Row>
@@ -468,25 +467,25 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>SERVICES</h6>
-                            <h4 style={fontStyle}><span style={{color:"#00C6D6"}}>最優惠價格保證:</span>竭盡所能為您提供業界最低價格</h4>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>服務(Services)</h6>
+                            <h4 style={fontStyle}><span style={{color:"#00C6D6"}}>最優惠價格保證：</span>竭盡所能為您提供業界最低價格</h4>
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col sm={12} md={4} className="d-flex">
                         <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
-                            <h4 style={fontStyle}>BASIC</h4>
-                            <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Business Website</h5>
+                            <h4 style={fontStyle}>基礎級</h4>
+                            <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>商業網站(Business Website)</h5>
                             <p style={{marginBlockStart:"16px",marginBlockEnd:"16px",marginLeft:"12px",marginRight:"12px"}}>
-                                一個好的門戶網站提升你的營業額 我們提供客製化或模板網站 最高品質低廉價格
+                                一個好的門戶網站提升你的營業額，我們提供客製化或模板網站，最高品質、低廉價格。
                             </p>
                             <hr style={hrStyle} />
-                            <h6 style={fontStyle}>Branding Design</h6>
-                            <h6 style={fontStyle}>UI/UX Design</h6>
-                            <h6 style={fontStyle}>Web Development</h6>
-                            <h6 style={fontStyle}>Performance Optimization</h6>
-                            <h6 style={fontStyle}>Server Administration Service</h6>
+                            <h6 style={fontStyle}>品牌設計</h6>
+                            <h6 style={fontStyle}>UI/UX設計</h6>
+                            <h6 style={fontStyle}>網站開發</h6>
+                            <h6 style={fontStyle}>效能優化</h6>
+                            <h6 style={fontStyle}>伺服器代管</h6>
                             <hr style={hrStyle} />
                             <Row>
                                 <Col md={{span:8, offset:2}}>
@@ -499,16 +498,16 @@ export default function App() {
                     </Col>
                     <Col sm={12} md={4} className="d-flex">
                         <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
-                            <h4 style={fontStyle}>STANDARD</h4>
-                            <h5 style={{color:"#FF0099",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Modern Web Application</h5>
+                            <h4 style={fontStyle}>標準級</h4>
+                            <h5 style={{color:"#FF0099",marginBlockStart:"16px",marginBlockEnd:"16px"}}>現代化網站平台、應用系統(Modern Web Application)</h5>
                             <p style={{marginBlockStart:"16px",marginBlockEnd:"16px",marginLeft:"12px",marginRight:"12px"}}>
-                                從電子商務 網路服務 內容管理系統 手機應用 到 線上預約系統 數位轉型幫助你節省開支 突破地域限制 改善客戶服務 行銷手機用戶
-                                最佳化運營效率
+                                從電子商務、網路服務、內容管理系統、手機應用，到線上預約系統，數位轉型幫助你節省開支、突破地域限制、改善客戶服務、行銷手機用戶、
+                                最佳化運營效率。
                             </p>
                             <hr style={hrStyle} />
-                            <h6 style={fontStyle}><span style={{color:"#FF0099"}}>ALL in BASIC Class</span></h6>
-                            <h6 style={fontStyle}>Content Management System</h6>
-                            <h6 style={fontStyle}>Monitoring Dashboard</h6>
+                            <h6 style={fontStyle}><span style={{color:"#FF0099"}}>基礎級方案全部服務</span></h6>
+                            <h6 style={fontStyle}>內容管理後台</h6>
+                            <h6 style={fontStyle}>數據分析儀表板</h6>
                             <hr style={hrStyle} />
                             <Row>
                                 <Col md={{span:8, offset:2}}>
@@ -521,17 +520,17 @@ export default function App() {
                     </Col>
                     <Col sm={12} md={4} className="d-flex">
                         <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
-                            <h4 style={fontStyle}>ENTERPRISE</h4>
-                            <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Data-Intensive System</h5>
+                            <h4 style={fontStyle}>企業級</h4>
+                            <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>數據密集型應用系統(Data-Intensive System)</h5>
                             <p style={{marginBlockStart:"16px",marginBlockEnd:"16px",marginLeft:"12px",marginRight:"12px"}}>
-                                大數據 人工智慧團隊以尖端技術提升你的業務增長 並且滿足你法遵 稽核 資安的需求
+                                大數據、人工智慧團隊以尖端技術提升你的業務增長，並且滿足你法遵、稽核、資安的需求。
                             </p>
                             <hr style={hrStyle} />
-                            <h6 style={fontStyle}><span style={{color:"#00C6D6"}}>ALL in STANDARD Class</span></h6>
-                            <h6 style={fontStyle}>Site Reliability Engineering</h6>
-                            <h6 style={fontStyle}>Cyber Security</h6>
-                            <h6 style={fontStyle}>Digital Marketing</h6>
-                            <h6 style={fontStyle}>More Specialized Features</h6>
+                            <h6 style={fontStyle}><span style={{color:"#00C6D6"}}>標準級方案全部服務</span></h6>
+                            <h6 style={fontStyle}>網站可靠性工程(SRE)</h6>
+                            <h6 style={fontStyle}>資訊安全</h6>
+                            <h6 style={fontStyle}>數位行銷</h6>
+                            <h6 style={fontStyle}>依客戶需求、客製化各種特殊功能</h6>
                             <hr style={hrStyle} />
                             <Row>
                                 <Col md={{span:8, offset:2}}>
@@ -549,7 +548,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>CONTACT</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>聯絡(Contact)</h6>
                             <h4 style={fontStyle}>有任何問題請隨時和我們聯繫</h4>
                         </div>
                     </Col>
@@ -558,21 +557,21 @@ export default function App() {
                     <Col sm={12} md={6} d-flex align-items-center>
                         <div className="text-center">
                             <img src={addressIcon} style={iconStyle} />
-                            <h5>Our Address</h5>
-                            <p>2F, No. 72, Sec. 1, Zhongxiao West Rd., Taipei City, Taiwan, 10041</p>
+                            <h5>地址</h5>
+                            <p>10041 台北市中正區忠孝西路一段72號2F</p>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={3} d-flex align-items-center>
                         <div className="text-center">
                             <img src={emailIcon} style={iconStyle} />
-                            <h5>Email Us</h5>
+                            <h5>Email</h5>
                             <p>seraph317@gmail.com</p>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={3} d-flex align-items-center>
                         <div className="text-center">
                             <img src={phoneIcon} style={iconStyle} />
-                            <h5>Call Us</h5>
+                            <h5>電話</h5>
                             <p>0900 615 379</p>
                         </div>
                     </Col>
@@ -591,13 +590,13 @@ export default function App() {
                                 <Row>
                                     <Col sm={12} md={6}>
                                         <div>
-                                            <label style={fontStyle}>NAME</label>
+                                            <label style={fontStyle}>名字</label>
                                             <input type="text" className="form-control" placeholder="Enter Your Name" />
                                         </div>
                                     </Col>
                                     <Col sm={12} md={6}>
                                         <div>
-                                            <label style={fontStyle}>PHONE</label>
+                                            <label style={fontStyle}>電話</label>
                                             <input type="text" className="form-control" placeholder="Enter Your Phone Number" />
                                         </div>
                                     </Col>
@@ -613,7 +612,7 @@ export default function App() {
                                 <Row>
                                     <Col md={12}>
                                         <div>
-                                            <label style={fontStyle}>CONTENT</label>
+                                            <label style={fontStyle}>內容</label>
                                             <textarea name="comment" style={{width:"100%",height:"120px",marginBlockEnd:"16px",padding:"12px",borderRadius:"6px"}}>Enter Content Here</textarea>
                                         </div>
                                     </Col>
@@ -629,19 +628,19 @@ export default function App() {
                     <Row style={{marginTop:"60px",paddingTop:"40px",paddingBottom:"40px"}}>
                         <Col sm={12} md={4}>
                             <div>
-                                <h4 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>ChouQin Info Co.</h4>
-                                <p style={fontStyle}>2F, No. 72, Sec. 1, Zhongxiao West Rd., Taipei City, Taiwan, 10041</p>
+                                <h4 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>酬勤資訊有限公司</h4>
+                                <p style={fontStyle}>10041 台北市中正區忠孝西路一段72號2F</p>
                                 <p style={fontStyle}>0900 615 379</p>
                                 <p style={fontStyle}><a href="mailto: seraph317@gmail.com">seraph317@gmail.com</a></p>
                             </div>
                         </Col>
                         <Col sm={12} md={4}>
                             <div>
-                                <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Our Services</h5>
-                                <p style={fontStyle}>Web Development</p>
-                                <p style={fontStyle}>Big Data</p>
-                                <p style={fontStyle}>Cloud Computing</p>
-                                <p style={fontStyle}>Artificial Intelligence</p>
+                                <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>服務內容</h5>
+                                <p style={fontStyle}>網站平台、應用系統開發</p>
+                                <p style={fontStyle}>大數據</p>
+                                <p style={fontStyle}>雲端運算</p>
+                                <p style={fontStyle}>人工智慧</p>
                             </div>
                         </Col>
                         <Col sm={12} md={4} className="d-flex align-items-end">
