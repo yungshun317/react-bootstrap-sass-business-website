@@ -65,9 +65,12 @@ fieldset {
     display: none;
 }
 
-.mobile-text {
-    display: none;
-}
+/**
+ * ENG VERSION
+ * .mobile-text {
+ *     display: none;
+ * }
+ */
 
 @media only screen and (max-width: 960px) {
     .pie-chart-large {
@@ -82,7 +85,10 @@ fieldset {
     .volume-chart-small {
         display: block;
     }
-    .mobile-text {
-        display: block;
-    }
+    /**
+     * ENG VERSION
+     * .mobile-text {
+     *    display: block;
+     * }
+     */
 }
