@@ -162,7 +162,7 @@ export default function App() {
                         <p className="mobile-text" style={fontStyle}>從企業網站、電子商務，到手機Apps，我們提供最具可依靠性、可擴充性、可維護性的系統方案。</p>
                         <h5 className="mobile-text" style={fontStyle}><span style={{color:"#00C6D6"}}>雲端運算(Cloud Computing)</span></h5>
                         <p className="mobile-text" style={fontStyle}>利用雲端微服務架構，重新定義成本最佳化。</p>
-                        <h5 className="mobile-text" style={fontStyle}><span style={{color:"#00C6D6"}}>人工智慧Artifici(al Intelligence)</span></h5>
+                        <h5 className="mobile-text" style={fontStyle}><span style={{color:"#00C6D6"}}>人工智慧(Artificial Intelligence)</span></h5>
                         <p className="mobile-text" style={fontStyle}>科技部AI競賽獲獎團隊，利用當下最佳(State-of-the-Art)的機器學習模型，幫助你的公司業務增長、改善財務狀況。</p>
                         <h5 className="mobile-text" style={fontStyle}><span style={{color:"#00C6D6"}}>資訊安全(Cyber Security)</span></h5>
                         <p className="mobile-text" style={fontStyle}>來自跨國金融機構的資訊安全專家，幫你嚴格把控你的系統安全、隔絕所有線上威脅、保護你珍貴的數據不被駭客偷取。</p>
@@ -195,7 +195,7 @@ export default function App() {
                         <h5 className="mobile-text" style={fontStyle} className="mobile-text" style={fontStyle}>專案成功四步驟</h5>
                         <h6 className="mobile-text" style={fontStyle}>計畫： <span style={{color:"#00C6D6"}}>品牌設計</span></h6>
                         <h6 className="mobile-text" style={fontStyle}>里程碑： <span style={{color:"#00C6D6"}}>UI/UX設計</span></h6>
-                        <h6 className="mobile-text" style={fontStyle}>提前勝利： <span style={{color:"#00C6D6"}}>專業開發</span></h6>
+                        <h6 className="mobile-text" style={fontStyle}>提前勝利： <span style={{color:"#00C6D6"}}>精實開發</span></h6>
                         <h6 className="mobile-text" style={fontStyle}>演化： <span style={{color:"#00C6D6"}}>上線交付</span></h6>
                         <p className="mobile-text" style={fontStyle}>
                             作為我們的客戶，你將享受到時下業界最精實的現代Web開發工作流程，並且獲得提煉自品牌設計(Branding Design)和數位行銷(Digital Marketing)的業績提升秘方。
