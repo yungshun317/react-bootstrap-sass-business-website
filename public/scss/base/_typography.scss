@@ -2,10 +2,16 @@
  * Bootstrap Default in _variables.scss
  * $font-weight-normal: 400;
  */
-$font-family-base: 'Rajdhani', sans-serif;
 
-$headings-font-family: 'Rajdhani', sans-serif;
-$headings-font-weight: 600;
+/**
+ * ENG VERSION
+ * $font-family-base: 'Rajdhani', sans-serif;
+ * $headings-font-family: 'Rajdhani', sans-serif;
+ * $headings-font-weight: 400;
+ */
+$font-family-base: "Noto Sans";
+$headings-font-family: "MStiffHeiHK";
+$headings-font-weight: 400;
 
 /**
  * Basic typography style for copy text

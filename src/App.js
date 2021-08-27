@@ -278,7 +278,7 @@ export default function App() {
                             <h5>擁抱創新</h5>
                             <p>
                                 創新是智慧在找樂子(Creativity is intelligence having fun)。我們是快速適應者、極客(Geeks)，更是現實的理想主義者。
-                                我們著迷於十種創新：獲利模式、網路、結構、流程、產品性能、產品系統、服務、通路、品牌、客戶投入。
+                                我們著迷於十種創新：獲利模式、網路、結構、流程、產品性能、產品系統、服務、通路、品牌、客戶投入，樂於和客戶一同成長。
                                 我們追尋創新與需求間的平衡。
                             </p>
                         </div>
@@ -490,7 +490,7 @@ export default function App() {
                             <Row>
                                 <Col md={{span:8, offset:2}}>
                                     <div>
-                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>START</h5></a>
+                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>開始</h5></a>
                                     </div>
                                 </Col>
                             </Row>
@@ -512,7 +512,7 @@ export default function App() {
                             <Row>
                                 <Col md={{span:8, offset:2}}>
                                     <div>
-                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#FF0099",width:"80%"}}><h5 style={{marginBottom:"0"}}>START</h5></a>
+                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#FF0099",width:"80%"}}><h5 style={{marginBottom:"0"}}>開始</h5></a>
                                     </div>
                                 </Col>
                             </Row>
@@ -535,7 +535,7 @@ export default function App() {
                             <Row>
                                 <Col md={{span:8, offset:2}}>
                                     <div>
-                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>START</h5></a>
+                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>開始</h5></a>
                                     </div>
                                 </Col>
                             </Row>
