@@ -1,4 +1,6 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import { Container, Row, Col } from "react-bootstrap";
 import ImageGallery from "react-image-gallery";
 import "@google/model-viewer";
@@ -44,7 +46,18 @@ import springLogo from "../public/assets/spring-logo-vector.svg";
 import wingLogo from "../public/assets/wing.svg";
 
 export default function App() {
+    return (
+        <Router>
+            <Switch>
+                <Route path="/">
+                    <Home />
+                </Route>
+            </Switch>
+        </Router>
+    );
+}
 
+function Home() {
     const rowStyle = {
         marginTop: "40px",
         marginBottom: "20px"
